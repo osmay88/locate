@@ -1,0 +1,3 @@
+#!/bin/bash
+# Calling the server with fixed credentials.
+curl --data "username=tuuli@yo.com&password=tuuli" http://localhost:1111/login

@@ -1,0 +1,2 @@
+#!/bin/bash
+node_modules/.bin/mocha --timeout 30000 --ui bdd tests/**/${1:-*}.test.js

@@ -1,0 +1,2 @@
+#!/bin/bash
+DEBUG=express:* nodemon --watch srv srv/srv.js -- "$@"

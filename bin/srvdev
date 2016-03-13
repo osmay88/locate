@@ -1,0 +1,2 @@
+#!/bin/bash
+nodemon --watch srv srv/srv.js -- "$@"
